@@ -1,0 +1,21 @@
+{% extends "parent.html" %}
+{% block title %}
+mypage/my
+{% endblock %}
+
+{% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    {% endblock %}
+
+{% block content %}
+<div class="content">
+    <p>About me</p>
+</div>
+<div class="text">
+    <ul>
+        <li><strong>Name: </strong>Maryna</li>
+        <li><strong>Surname: </strong>Velychynska</li>
+    </ul>
+</div> {% endblock %}
+
+

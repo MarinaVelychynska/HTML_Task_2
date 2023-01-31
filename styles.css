@@ -1,0 +1,21 @@
+.header {
+   font-weight: bold;
+   font-size: xx-large; 
+   color:brown;
+   background-color: antiquewhite;
+   padding-left: 9cm;
+}
+
+.content {
+    font-weight: bold;
+    font-size: 35pt; 
+    color: brown;
+    padding-left: 3cm;
+}
+
+.text {
+    font-style: initial; 
+    font-size: 20pt; 
+    padding-left: 1cm;
+    background-color: beige;
+}

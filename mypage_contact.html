@@ -1,0 +1,36 @@
+{% extends "parent.html" %}
+{% block title %}
+mypage/contact
+{% endblock %}
+
+{% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles2.css') }}">
+    {% endblock %}
+
+{% block content %}
+<div class="main">
+    <div class="header">
+        <h1>Here is my contacts!</h1>
+    </div>
+    
+    <div class="content">
+        <p>Contacts: </p>
+    </div>
+    <div class="text">
+        <ul>
+            <li><strong>Email: </strong>marien5@ukr.net</li>
+            <li><strong>Telefon: </strong>+48789905396</li>
+        </ul>
+    </div> 
+    <h3>Send a message</h3>
+    <div class="form">
+    <form action="/action_page.php" id="usrform"></form>
+    Name: <input type="text" name="usrname">
+    <input type="submit">
+  </form>
+  <br>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+  Enter text here...</textarea>
+    </div>
+</div>
+{% endblock %}
